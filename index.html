@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Coming Soon! &mdash; mobile by Mystic Apps | Mystic Consulting LLC</title>
+  <title>Mystic Consulting LLC | Mobile by Mystic Apps</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,23 +26,23 @@
 <body>
 
   <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" role="presentation" aria-hidden="true">
     <source src="mp4/bg.mp4" type="video/mp4">
   </video>
 
-  <div class="masthead">
+  <div class="masthead" role="main">
     <div class="masthead-bg"></div>
     <div class="container h-100">
       <div class="row h-100">
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-3">
-                <span class="h6">mobile by</span><br />
+              <span class="h6">mobile by</span><br />
               Mystic Apps
             </h1>
             <p class="h3">Mystic Consulting LLC</p>
-            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-              <strong>December 2019</strong>!</p>
+            <p class="mb-5">We&rsquo;re working hard to finish the development of this site. Our target launch date is
+              <strong>fall 2020</strong>!</p>
             <!--<div class="input-group input-group-newsletter">
               <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
@@ -56,20 +56,20 @@
   </div>
 
   <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
+    <ul class="list-unstyled text-center mb-0" role="navigation">
       <li class="list-unstyled-item">
         <a href="https://twitter.com/mysticconsult">
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-twitter"><span class="sr-only">Twitter</span></i>
         </a>
       </li>
       <li class="list-unstyled-item">
         <a href="https://facebook.com/mystic.consulting">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-facebook-f"><span class="sr-only">Facebook</span></i>
         </a>
       </li>
       <li class="list-unstyled-item">
           <a href="https://mystic.consulting">
-              <i class="fas fa-desktop"></i>
+              <i class="fas fa-desktop"><span class="sr-only">Mystic Consulting LLC</span></i>
           </a>
       </li>
     </ul>
